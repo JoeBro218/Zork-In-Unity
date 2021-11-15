@@ -20,3 +20,14 @@ C:\Users\lispi\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\ob
 C:\Users\lispi\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.Fody.CopyLocal.cache
 C:\Users\lispi\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.dll
 C:\Users\lispi\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.pdb
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\bin\Debug\netstandard2.0\Zork.Common.deps.json
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\bin\Debug\netstandard2.0\Zork.Common.dll
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\bin\Debug\netstandard2.0\Zork.Common.pdb
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.AssemblyReference.cache
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.AssemblyInfoInputs.cache
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.AssemblyInfo.cs
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.CoreCompileInputs.cache
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.Fody.CopyLocal.cache
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.dll
+C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.pdb
