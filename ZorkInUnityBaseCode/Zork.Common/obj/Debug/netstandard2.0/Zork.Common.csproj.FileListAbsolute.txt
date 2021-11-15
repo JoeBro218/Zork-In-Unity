@@ -1,0 +1,11 @@
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\bin\Debug\netstandard2.0\Zork.Common.deps.json
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\bin\Debug\netstandard2.0\Zork.Common.dll
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\bin\Debug\netstandard2.0\Zork.Common.pdb
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.AssemblyReference.cache
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.AssemblyInfoInputs.cache
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.AssemblyInfo.cs
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.CoreCompileInputs.cache
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.Fody.CopyLocal.cache
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.dll
+C:\Users\lispi\Downloads\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.pdb
