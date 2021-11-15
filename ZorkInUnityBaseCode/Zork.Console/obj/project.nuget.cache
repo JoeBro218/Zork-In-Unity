@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6/W+kj6xDNkRx1mJ7zDhjy0bUwHJYeKfpP/VgJkljUKqk2KUNpTad1J/fcAxdcBFYPM4B3bbIC5DrMuvz8Jk8g==",
+  "dgSpecHash": "OH3b2CegCoM4GwjMDnofE01rPMDELqxaiMLUkSfIgtl67+97we2rlxqlLGfMFslK5J8l0dg7j3YPTAQIK+Eo/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lispi\\Downloads\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
+  "projectFilePath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lispi\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
     "C:\\Users\\lispi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

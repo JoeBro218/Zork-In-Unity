@@ -150,11 +150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lispi\\Downloads\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
+      "projectUniqueName": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
       "projectName": "Zork.Console",
-      "projectPath": "C:\\Users\\lispi\\Downloads\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
+      "projectPath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
       "packagesPath": "C:\\Users\\lispi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lispi\\Downloads\\ZorkInUnityBaseCode\\Zork.Console\\obj\\",
+      "outputPath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lispi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,8 +171,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\lispi\\Downloads\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj": {
-              "projectPath": "C:\\Users\\lispi\\Downloads\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj"
+            "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj": {
+              "projectPath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj"
             }
           }
         }

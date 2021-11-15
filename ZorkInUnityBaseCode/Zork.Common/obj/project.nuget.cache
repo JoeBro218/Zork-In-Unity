@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LnhbBY69JInohCj251oNFj0qtNkrIXSIr0kJJSdxXu/YkRMHS7GAWyCY+AD930SA50HOW9gMn6z0LLdRaa/Trg==",
+  "dgSpecHash": "uB6atLJGP7v6Rubx+SWqC2K7wFvKjnr/J8eDY7/EXguyLl8sqDbDWWSML994wxqwc/FT1VcxRcUW34XRIb3zSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lispi\\Downloads\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj",
+  "projectFilePath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lispi\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
     "C:\\Users\\lispi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
