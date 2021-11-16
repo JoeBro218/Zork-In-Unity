@@ -26,6 +26,10 @@ namespace Zork
         [JsonIgnore]
         public bool IsRunning { get; set; }
 
+        private int ScoreTotal = 0;
+
+        private int MoveTotal = 1;
+
         public IInputService Input { get; set; }
 
         public IOutputService Output { get; set; }
@@ -42,6 +46,8 @@ namespace Zork
             {
                 { "QUIT", new Command("QUIT", new string[] { "QUIT", "Q", "BYE" }, Quit) },
                 { "LOOK", new Command("LOOK", new string[] { "LOOK", "L" }, Look) },
+                { "SCORE", new Command("SCORE", new string[] {"SCORE" }, Score) },
+                { "REWARD", new Command("REWARD", new string[] {"REWARD", "R"}, Reward) },
                 { "NORTH", new Command("NORTH", new string[] { "NORTH", "N" }, game => Move(game, Directions.North)) },
                 { "SOUTH", new Command("SOUTH", new string[] { "SOUTH", "S" }, game => Move(game, Directions.South)) },
                 { "EAST", new Command("EAST", new string[] { "EAST", "E"}, game => Move(game, Directions.East)) },
@@ -77,6 +83,7 @@ namespace Zork
             if (foundCommand != null)
             {
                 foundCommand.Action(this);
+                MoveTotal += 1;
             }
             else
             {
@@ -91,6 +98,17 @@ namespace Zork
                 game.Output.WriteLine("The way is shut!");
             }
         }
+
+        private static void Score(Game game)
+        {
+            if(game.MoveTotal == 1)
+            game.Output.WriteLine($"Your Score is: {game.ScoreTotal} and you have made {game.MoveTotal} move.");
+
+            else
+            game.Output.WriteLine($"Your Score is: {game.ScoreTotal} and you have made {game.MoveTotal} moves.");
+        }
+
+        private static void Reward(Game game) => game.ScoreTotal += 1;
 
         public static void Look(Game game) => game.Output.WriteLine(game.Player.Location.Description);
 
