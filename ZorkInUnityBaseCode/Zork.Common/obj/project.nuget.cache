@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "W5Nsny3Vgpz+8aWeu6cMeiT5c1V2M+KIFQUuhr3aH20TxvDeX7uTQjgNEKVcLgqe3nCv7H+p5sdaBcbfpF8mOw==",
+  "dgSpecHash": "uB6atLJGP7v6Rubx+SWqC2K7wFvKjnr/J8eDY7/EXguyLl8sqDbDWWSML994wxqwc/FT1VcxRcUW34XRIb3zSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jo814003\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj",
+  "projectFilePath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jo814003\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\jo814003\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\jo814003\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512"
+    "C:\\Users\\lispi\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512"
   ],
   "logs": []
 }

@@ -31,3 +31,6 @@ C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common
 C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.Fody.CopyLocal.cache
 C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.dll
 C:\Users\jo814003\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.pdb
+C:\Users\lispi\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork In Unity\Assets\netstandard2.0\Zork.Common.deps.json
+C:\Users\lispi\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork In Unity\Assets\netstandard2.0\Zork.Common.dll
+C:\Users\lispi\Documents\GitHub\Zork-In-Unity\ZorkInUnityBaseCode\Zork In Unity\Assets\netstandard2.0\Zork.Common.pdb
