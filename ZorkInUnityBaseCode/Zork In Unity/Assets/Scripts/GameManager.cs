@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     {
         TextAsset gameTextAsset = Resources.Load<TextAsset>("Zork");
         Game game = JsonConvert.DeserializeObject<Game>(gameTextAsset.text);
+
+        game.Start(InputService, OutputService);
     }
 
 }
