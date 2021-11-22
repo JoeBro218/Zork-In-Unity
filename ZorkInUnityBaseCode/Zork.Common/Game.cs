@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -26,9 +25,11 @@ namespace Zork
         [JsonIgnore]
         public bool IsRunning { get; set; }
 
-        private int ScoreTotal = 0;
+        [JsonIgnore]
+        public int ScoreTotal = 0;
 
-        private int MoveTotal = 1;
+        [JsonIgnore]
+        public int MoveTotal = 1;
 
         public IInputService Input { get; set; }
 

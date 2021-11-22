@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private OutputServiceUnity OutputService;
 
-    void Start()
+    void Awake()
     {
         TextAsset gameTextAsset = Resources.Load<TextAsset>("Zork");
         Game game = JsonConvert.DeserializeObject<Game>(gameTextAsset.text);
