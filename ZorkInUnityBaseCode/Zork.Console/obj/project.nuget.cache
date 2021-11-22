@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OH3b2CegCoM4GwjMDnofE01rPMDELqxaiMLUkSfIgtl67+97we2rlxqlLGfMFslK5J8l0dg7j3YPTAQIK+Eo/g==",
+  "dgSpecHash": "nzngO+q4l+TZxHTVaeMGZMG5PUUkzG9NiLKsePEU7sH3XcyErXUIP/9eHt+zww/k5RQqeILU8epBxZRO4gwvzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
+  "projectFilePath": "C:\\Users\\jo814003\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lispi\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
-    "C:\\Users\\lispi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\lispi\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512"
+    "C:\\Users\\jo814003\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
+    "C:\\Users\\jo814003\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jo814003\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512"
   ],
   "logs": []
 }
