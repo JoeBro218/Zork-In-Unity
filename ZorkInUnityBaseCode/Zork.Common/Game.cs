@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -10,6 +11,8 @@ namespace Zork
     public class Game : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public event EventHandler GameStop;
 
         public World World { get; private set; }
 
@@ -83,8 +86,9 @@ namespace Zork
 
             if (foundCommand != null)
             {
+                Player.Moves += 1;
                 foundCommand.Action(this);
-                MoveTotal += 1;
+                Output.WriteLine(" ");
             }
             else
             {
@@ -98,24 +102,36 @@ namespace Zork
             {
                 game.Output.WriteLine("The way is shut!");
             }
+
+            if(game.LastRoom != game.Player.Location)
+            {
+                Game.Look(game);
+                game.LastRoom = game.Player.Location;
+            }
         }
 
         private static void Score(Game game)
         {
             if(game.MoveTotal == 1)
-            game.Output.WriteLine($"Your Score is: {game.ScoreTotal} and you have made {game.MoveTotal} move.");
+            game.Output.WriteLine($"Your Score is: {game.Player.Score} and you have made {game.Player.Moves} move.");
 
             else
-            game.Output.WriteLine($"Your Score is: {game.ScoreTotal} and you have made {game.MoveTotal} moves.");
+            game.Output.WriteLine($"Your Score is: {game.Player.Score} and you have made {game.Player.Moves} moves.");
         }
 
-        private static void Reward(Game game) => game.ScoreTotal += 1;
+        private static void Reward(Game game) => game.Player.Score += 1;
 
         public static void Look(Game game) => game.Output.WriteLine(game.Player.Location.Description);
 
-        private static void Quit(Game game) => game.IsRunning = false;
+        private static void Quit(Game game)
+        {
+            game.IsRunning = false;
+            game.GameStop?.Invoke(game, EventArgs.Empty);
+        }
 
         [OnDeserialized]
         private void OnDeserialized(StreamingContext context) => Player = new Player(World, StartingLocation);
+
+        private Room LastRoom;
     }
 }

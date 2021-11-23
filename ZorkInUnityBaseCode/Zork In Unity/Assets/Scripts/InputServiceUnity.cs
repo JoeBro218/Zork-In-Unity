@@ -9,9 +9,17 @@ public class InputServiceUnity : MonoBehaviour, IInputService
 
     public event EventHandler<string> InputReceived;
 
-    public void ProcessInput()
+    private void Update()
     {
-        string inputString = Console.ReadLine().Trim().ToUpper();
-        InputReceived?.Invoke(this, inputString);
+        if(Input.GetKey(KeyCode.Return))
+        {
+            if(string.IsNullOrWhiteSpace(InputField.text) == false)
+            {
+                string InputString = InputField.text.Trim().ToUpper();
+                InputReceived?.Invoke(this, InputString);
+            }
+
+            InputField.text = string.Empty;
+        }
     }
 }

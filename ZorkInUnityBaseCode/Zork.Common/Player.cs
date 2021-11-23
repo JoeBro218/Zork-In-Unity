@@ -7,6 +7,48 @@ namespace Zork
     {
         public event EventHandler<Room> LocationChanged;
 
+        public event EventHandler<int> ScoreChanged;
+
+        public event EventHandler<int> MovesChanged;
+
+        private Room _location;
+        private int _moves;
+        private int _score;
+
+        public int Score
+        {
+            get
+            {
+                return _score;
+            }
+
+            set
+            {
+                if(_score != value)
+                {
+                    _score = value;
+                    ScoreChanged?.Invoke(this, _score);
+                }
+            }
+        }
+
+        public int Moves
+        {
+            get
+            {
+                return _moves;
+            }
+            
+            set
+            {
+                if(_moves != value)
+                {
+                    _moves = value;
+                    MovesChanged?.Invoke(this, _moves);
+                }
+            }
+        }
+
         public World World { get; }
 
         [JsonIgnore]
@@ -46,6 +88,5 @@ namespace Zork
 
             return isValidMove;
         }
-        private Room _location;
     }
 }
