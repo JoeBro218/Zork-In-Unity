@@ -52,6 +52,7 @@ namespace Zork
                 { "LOOK", new Command("LOOK", new string[] { "LOOK", "L" }, Look) },
                 { "SCORE", new Command("SCORE", new string[] {"SCORE" }, Score) },
                 { "REWARD", new Command("REWARD", new string[] {"REWARD", "R"}, Reward) },
+                { "HELP", new Command("HELP", new string[] {"HELP", "H", "INFO", "INFORMATION", "I"}, Help) },
                 { "NORTH", new Command("NORTH", new string[] { "NORTH", "N" }, game => Move(game, Directions.North)) },
                 { "SOUTH", new Command("SOUTH", new string[] { "SOUTH", "S" }, game => Move(game, Directions.South)) },
                 { "EAST", new Command("EAST", new string[] { "EAST", "E"}, game => Move(game, Directions.East)) },
@@ -119,7 +120,33 @@ namespace Zork
             game.Output.WriteLine($"Your Score is: {game.Player.Score} and you have made {game.Player.Moves} moves.");
         }
 
-        private static void Reward(Game game) => game.Player.Score += 1;
+        private static void Reward(Game game)
+        {
+            Random RanNum = new Random();
+            int Num = RanNum.Next(1, 11);
+
+            if (Num == 1)
+            {
+                game.Output.WriteLine("A rock. It's worthless.");
+            }
+            else if (Num > 1 && Num < 10)
+            {
+                game.Output.WriteLine("Woah! Free Coin!");
+                game.Player.Score += 1;
+            }
+            else if (Num >= 10)
+            {
+                game.Output.WriteLine("Shinny Gold Egg!");
+                game.Player.Score += 10;
+            }
+
+            game.Player.Moves += 1;
+        }
+
+        private static void Help(Game game)
+        {
+            game.Output.WriteLine("  Type North, South, East, or West to move the player around a given area. \n  Type Look to observe the room you are in. \n  Type Score to know your points earned and moves made. \n  Type Reward to have a random chance of your score increasing. \n  Type Help to bring up the list of commands. \n  Type Quit to exit the game.");
+        }
 
         public static void Look(Game game) => game.Output.WriteLine(game.Player.Location.Description);
 
