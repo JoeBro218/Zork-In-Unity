@@ -13,7 +13,6 @@ public class OutputServiceUnity : MonoBehaviour, IOutputService
     [SerializeField] private TextMeshProUGUI TextAssetPrefab;
     [SerializeField] private Image NewLinePrefab;
 
-
     public OutputServiceUnity() => mEntries = new List<GameObject>();
 
     public void Clear() => mEntries.ForEach(entry => Destroy(entry));
