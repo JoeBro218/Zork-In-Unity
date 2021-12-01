@@ -16,15 +16,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI ScoreText;
 
-    private Game _game;
-
     //Beep
     private void Start()
     {
         TextAsset gameTextAsset = Resources.Load<TextAsset>("Zork");
         Game game = JsonConvert.DeserializeObject<Game>(gameTextAsset.text);
-        
-        _game = game;
 
         game.GameStop += game_GameStopped;
         game.Start(InputService, OutputService);

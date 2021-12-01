@@ -25,6 +25,7 @@ namespace Zork
 
             while (game.IsRunning)
             {
+                //Refactor this into Games.cs
                 output.WriteLine(game.Player.Location);
 
                 if (previousRoom != game.Player.Location)
