@@ -28,12 +28,6 @@ namespace Zork
         [JsonIgnore]
         public bool IsRunning { get; set; }
 
-        [JsonIgnore]
-        public int ScoreTotal = 0;
-
-        [JsonIgnore]
-        public int MoveTotal = 1;
-
         public IInputService Input { get; set; }
 
         public IOutputService Output { get; set; }
@@ -68,6 +62,8 @@ namespace Zork
 
             Assert.IsNotNull(output);
             Output = output;
+
+            Player.Moves += 1;
 
             IsRunning = true;
         }
@@ -104,20 +100,16 @@ namespace Zork
                 game.Output.WriteLine("The way is shut!");
             }
 
-            if(game.LastRoom != game.Player.Location)
-            {
-                Game.Look(game);
-                game.LastRoom = game.Player.Location;
-            }
+            //if (game.LastRoom != game.Player.Location)
+            //{
+            //    Game.Look(game);
+            //    game.LastRoom = game.Player.Location;
+            //}
         }
 
         private static void Score(Game game)
         {
-            if(game.MoveTotal == 1)
-            game.Output.WriteLine($"Your Score is: {game.Player.Score} and you have made {game.Player.Moves} move.");
-
-            else
-            game.Output.WriteLine($"Your Score is: {game.Player.Score} and you have made {game.Player.Moves} moves.");
+            game.Output.WriteLine($"Your Score is: {game.Player.Score}, and you have made {game.Player.Moves} moves.");
         }
 
         private static void Reward(Game game)
@@ -156,6 +148,6 @@ namespace Zork
         [OnDeserialized]
         private void OnDeserialized(StreamingContext context) => Player = new Player(World, StartingLocation);
 
-        private Room LastRoom;
+        //private Room LastRoom;
     }
 }

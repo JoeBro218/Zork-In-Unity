@@ -9,7 +9,6 @@ public class InputServiceUnity : MonoBehaviour, IInputService
 
     public event EventHandler<string> InputReceived;
 
-    //eep
     private void Update()
     {
         if(Input.GetKey(KeyCode.Return))

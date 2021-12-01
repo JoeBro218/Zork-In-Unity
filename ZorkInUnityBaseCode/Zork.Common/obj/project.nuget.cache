@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uB6atLJGP7v6Rubx+SWqC2K7wFvKjnr/J8eDY7/EXguyLl8sqDbDWWSML994wxqwc/FT1VcxRcUW34XRIb3zSQ==",
+  "dgSpecHash": "3uvaMezXknDZhInYh1PjQOG66dnm5kmSQGnsJInUbAC1cb2NqNvXYe+A28uUZ/cKkJew+Ulw73JVL7X4CuYs3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Common\\Zork.Common.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,8 @@
     "C:\\Users\\lispi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\lispi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\lispi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\lispi\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512"
+    "C:\\Users\\lispi\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\system.speech\\6.0.0\\system.speech.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

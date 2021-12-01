@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using Newtonsoft.Json;
+using System.Speech.Synthesis;
 
 namespace Zork
 {
@@ -12,6 +13,7 @@ namespace Zork
 
             Game game = JsonConvert.DeserializeObject<Game>(File.ReadAllText(gameFilename));
 
+            SpeechSynthesizer Text = new SpeechSynthesizer();
             ConsoleInputService input = new ConsoleInputService();
             ConsoleOutputService output = new ConsoleOutputService();
 
@@ -24,9 +26,11 @@ namespace Zork
             while (game.IsRunning)
             {
                 output.WriteLine(game.Player.Location);
+
                 if (previousRoom != game.Player.Location)
                 {
                     Game.Look(game);
+
                     previousRoom = game.Player.Location;
                 }
 

@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "OH3b2CegCoM4GwjMDnofE01rPMDELqxaiMLUkSfIgtl67+97we2rlxqlLGfMFslK5J8l0dg7j3YPTAQIK+Eo/g==",
+  "dgSpecHash": "WD0VzCSWDT+95ClQRPQivcHNPqtNPPVZbdz+Bo0aVGrSdPKVkv7TubaVppa3P2Nm8/f10Fs0oGGjf3KJHiM0rg==",
   "success": true,
   "projectFilePath": "C:\\Users\\lispi\\Documents\\GitHub\\Zork-In-Unity\\ZorkInUnityBaseCode\\Zork.Console\\Zork.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lispi\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\lispi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\lispi\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512"
+    "C:\\Users\\lispi\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\lispi\\.nuget\\packages\\system.speech\\6.0.0\\system.speech.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

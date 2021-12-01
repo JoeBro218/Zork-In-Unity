@@ -56,6 +56,15 @@
         "build": {
           "build/PropertyChanged.Fody.props": {}
         }
+      },
+      "System.Speech/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Speech.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Speech.dll": {}
+        }
       }
     }
   },
@@ -285,13 +294,42 @@
         "weaver/PropertyChanged.Fody.dll",
         "weaver/PropertyChanged.Fody.xcf"
       ]
+    },
+    "System.Speech/6.0.0": {
+      "sha512": "GQovERMrNP0Vbtgk8LzH4PlFS6lqHgsL9WkUmv8Kkxa0m0vNakitytpHZlfJ9WR7n9WKLXh68nn2kyL9mflnLg==",
+      "type": "package",
+      "path": "system.speech/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Speech.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/_._",
+        "lib/net6.0/System.Speech.dll",
+        "lib/net6.0/System.Speech.xml",
+        "lib/netcoreapp3.1/System.Speech.dll",
+        "lib/netcoreapp3.1/System.Speech.xml",
+        "lib/netstandard2.0/System.Speech.dll",
+        "lib/netstandard2.0/System.Speech.xml",
+        "runtimes/win/lib/net6.0/System.Speech.dll",
+        "runtimes/win/lib/net6.0/System.Speech.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Speech.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Speech.xml",
+        "system.speech.6.0.0.nupkg.sha512",
+        "system.speech.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
-      "PropertyChanged.Fody >= 3.2.10"
+      "PropertyChanged.Fody >= 3.2.10",
+      "System.Speech >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -346,6 +384,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[3.2.10, )"
+          },
+          "System.Speech": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [
