@@ -28,10 +28,10 @@ public class GameManager : MonoBehaviour
         game.Player.LocationChanged += (sender, Location) => LocationText.text = $"Location: {Location.ToString()}";
         LocationText.text = $"Location: {game.StartingLocation.ToString()}";
 
-        game.Player.ScoreChanged += (sender, Score) => ScoreText.text = $"Score: {ScoreText.ToString()}";
+        game.Player.ScoreChanged += (sender, Score) => ScoreText.text = $"Score: {Score.ToString()}"; 
         ScoreText.text = $"Score: {game.Player.Score.ToString()}";
 
-        game.Player.MovesChanged += (sender, Moves) => MovesText.text = $"Moves: {MovesText.ToString()}";
+        game.Player.MovesChanged += (sender, Moves) => MovesText.text = $"Moves: {Moves.ToString()}";
         MovesText.text = $"Moves: {game.Player.Moves.ToString()}";
 
         Game.Look(game);
