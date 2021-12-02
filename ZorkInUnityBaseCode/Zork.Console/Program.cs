@@ -21,17 +21,19 @@ namespace Zork
 
             game.Start(input, output);
 
-            Room previousRoom = null;
+            output.WriteLine(game.Player.Location);
+            Game.Look(game);
+
+            Room previousRoom = game.Player.Location;
 
             while (game.IsRunning)
             {
                 //Refactor this into Games.cs
-                output.WriteLine(game.Player.Location);
 
                 if (previousRoom != game.Player.Location)
                 {
-                    Game.Look(game);
-
+                    output.WriteLine(game.Player.Location);
+                    //Game.Look(game);
                     previousRoom = game.Player.Location;
                 }
 

@@ -100,11 +100,11 @@ namespace Zork
                 game.Output.WriteLine("The way is shut!");
             }
 
-            //if (game.LastRoom != game.Player.Location)
-            //{
-            //    Game.Look(game);
-            //    game.LastRoom = game.Player.Location;
-            //}
+            if (game.LastRoom != game.Player.Location)
+            {
+                Game.Look(game);
+                game.LastRoom = game.Player.Location;
+            }
         }
 
         private static void Score(Game game)
@@ -148,6 +148,6 @@ namespace Zork
         [OnDeserialized]
         private void OnDeserialized(StreamingContext context) => Player = new Player(World, StartingLocation);
 
-        //private Room LastRoom;
+        private Room LastRoom;
     }
 }

@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI ScoreText;
 
-    //Beep
+
+
     private void Start()
     {
         TextAsset gameTextAsset = Resources.Load<TextAsset>("Zork");
@@ -35,7 +36,6 @@ public class GameManager : MonoBehaviour
         MovesText.text = $"Moves: {game.Player.Moves.ToString()}";
 
         Game.Look(game);
-
     }
 
     private void game_GameStopped(object sender, EventArgs e)
