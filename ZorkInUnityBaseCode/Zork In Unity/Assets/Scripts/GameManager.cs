@@ -6,17 +6,20 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Script Fields")]
     [SerializeField] private InputServiceUnity InputService;
-
     [SerializeField] private OutputServiceUnity OutputService;
 
+    [Header("Text Boxes")]
     [SerializeField] private TextMeshProUGUI LocationText;
-
     [SerializeField] private TextMeshProUGUI MovesText;
-
     [SerializeField] private TextMeshProUGUI ScoreText;
 
-
+    [Header("Audio")]
+    [SerializeField] private AudioSource Idle;
+    [SerializeField] private AudioSource WalkingGravel;
+    [SerializeField] private AudioSource WalkingTallGrass;
+    [SerializeField] private AudioSource WalkingRegularGrass;
 
     private void Start()
     {
@@ -27,6 +30,7 @@ public class GameManager : MonoBehaviour
         game.Start(InputService, OutputService);
 
         game.Player.LocationChanged += (sender, Location) => LocationText.text = $"Location: {Location.ToString()}";
+        game.Player.LocationChanged += (sender, Location) => MovmentSound();
         LocationText.text = $"Location: {game.StartingLocation.ToString()}";
 
         game.Player.ScoreChanged += (sender, Score) => ScoreText.text = $"Score: {Score.ToString()}"; 
@@ -36,6 +40,26 @@ public class GameManager : MonoBehaviour
         MovesText.text = $"Moves: {game.Player.Moves.ToString()}";
 
         Game.Look(game);
+
+        Idle.Play();
+    }
+
+    private void MovmentSound()
+    {
+        System.Random RanNum = new System.Random();
+        int Num = RanNum.Next(1, 9);
+        if (Num == 1 || Num == 2 || Num == 3)
+        {
+            WalkingGravel.Play();
+        }
+        else if (Num == 4 || Num == 5 || Num == 6)
+        {
+            WalkingTallGrass.Play();
+        }
+        else if (Num == 7 || Num == 8 || Num == 9)
+        {
+            WalkingRegularGrass.Play();
+        }
     }
 
     private void game_GameStopped(object sender, EventArgs e)
