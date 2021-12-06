@@ -55,8 +55,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\OutputServiceUnity.cs" />
     <Compile Include="Assets\Scripts\InputServiceUnity.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\AudioService.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

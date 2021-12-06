@@ -102,6 +102,7 @@ namespace Zork
 
             if (game.LastRoom != game.Player.Location)
             {
+                game.Output.WriteLine(game.Player.Location);
                 Game.Look(game);
                 game.LastRoom = game.Player.Location;
             }
@@ -117,7 +118,7 @@ namespace Zork
             Random RanNum = new Random();
             int Num = RanNum.Next(1, 11);
             if (Num == 1)
-            {
+            { 
                 game.Output.WriteLine("A rock. It's worthless.");
             }
             else if (Num > 1 && Num < 10)

@@ -28,15 +28,6 @@ namespace Zork
 
             while (game.IsRunning)
             {
-                //Refactor this into Games.cs
-
-                if (previousRoom != game.Player.Location)
-                {
-                    output.WriteLine(game.Player.Location);
-                    //Game.Look(game);
-                    previousRoom = game.Player.Location;
-                }
-
                 output.Write("\n> ");
                 input.ProcessInput();
             }
